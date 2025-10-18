@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gorras</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <!-- iconos -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"><!-- Fuente -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><!-- Fuente -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <!-- Fuente -->
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+
+        <div class="menu">
+
+            <nav>
+                <div class="logo">LOGO</div>
+                <ul class="menu1">
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Gorras</a>
+                        <ul>
+                            <li><a href="./Snapback/Snapback.html">Snapback</a></li>
+                            <li><a href="#">Gorra de béisbol</a></li>
+                            <li><a href="#">Gorra Trucker</a></li>
+                            <li><a href="#">Tapa de cinco paneles</a></li>
+                            <li><a href="#">Dad Hat</a></li>
+                            <li><a href="#">Gorra militar</a></li>
+                            <li><a href="#">Bucket hat</a></li>
+                            <li><a href="#">Beanie</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Colecciones</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+
+                <form class="Buscar">
+                    <input class="buscar" type="search" placeholder="Buscar...">
+                    <button class="btnBuscar"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    <hr>
+                </form>
+                <div class="IconCarrito"><i class="fa-solid fa-cart-shopping" id="iconCarrito"></i></div>
+            </nav>
+
+            <!--Carrito-->
+            <div class="carrito">
+                <h2>Tu Carrito</h2>
+                <!--Contenido de Carrito-->
+                <div class="contenidoCarrito">
+                   
+                    <!-- Aquí se insertarán los productos con JS -->
+
+                </div>
+                <!--Total-->
+                <div class="total">
+                    <div class="titulo">Total</div>
+                    <div class="precioTotal">$0</div>
+                </div>
+                <!--Boton de Comprar-->
+                <button class="btnComprar">Comprar ahora</button>
+                <!--Cerrar Carrito-->
+                <i class="fa-solid fa-xmark" id='cerrarCarrito'></i>
+
+            </div>
+
+        </div>
+    </header>
+
+    <main>
+        <section id="portada">
+            <h1>¡Encuentra las mejores ofertas!</h1>
+            <a href="#ofertas"><button class="btnOferta">Vamos</button></a>
+        </section>
+
+        <section class="promocion">
+            <div class="promocion-txt">
+                <h1>¿Sabías que...?</h1>
+                <p>¿Sabías que la primera gorra de béisbol se usó en 1849? Desde entonces, se convirtió en un símbolo de
+                    estilo y actitud.</p>
+                <p>Las gorras nacieron para proteger del sol… ¡pero hoy son el accesorio más usado en el mundo!
+                    Encuentra la tuya y destaca con estilo.</p>
+            </div>
+
+            <div class="promocion-img">
+                <img src="multimedia/imagenes/curiosidad.jpeg" alt="">
+            </div>
+        </section>
+
+        <section id="ofertas">
+            <h1>Ofertas especiales</h1>
+            <div class="ofertas-grid">
+                <div class="oferta-card">
+                    <img src="multimedia/imagenes/oferta1.png" class = "productoImagen">
+                    <h3 class="producto">Authentic Ball Cap "New York" Corduroy Navy</h3>
+                    <p class="precio">$1,199.00</p>
+                    <button class='btnCarrito'>Agregar al carrito</button>
+                </div>
+                <div class="oferta-card">
+                    <img src="multimedia/imagenes/oferta2.png" class = "productoImagen">
+                    <h3 class="producto">CLEAN UP Ballpark Suede Anaheim Ducks Khaki</h3>
+                    <p class="precio">$1,199.00</p>
+                    <button class='btnCarrito'>Agregar al carrito</button>
+                </div>
+                <div class="oferta-card">
+                    <img src="multimedia/imagenes/oferta3.png" class = "productoImagen">
+                    <h3 class="producto">CLEAN UP Confetti New York Mets Green</h3>
+                    <p class="precio">$970.00</p>
+                    <button class='btnCarrito'>Agregar al carrito</button>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+
+
+
+
+
+    <footer>
+        <p>Derechos de autor 2025</p>
+    </footer>
+
+    <!--Enlace al JS--->
+    <script src="main.js"></script>
+</body>
+
+</html>
